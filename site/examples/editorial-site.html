@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pseudo Class Selectors</title>
+<style>
+/* Styles go here. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header li {
+	list-style: none;
+  align-content: right;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color:#F7F2E0;
+  color: #3A3D3A;
+	background-color: #DAC2B2;
+	border: 2px solid #BF897F;
+  display: block;
+  /* Change width of table of contents */
+  width: 400px;
+  text-align: left;
+  /* Separate menu buttons from each other */
+  margin-bottom: 1px;
+}
+
+a:hover, a:active {
+  background-color: #BF897F;
+  color:#F7F2E0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: left;
+  color:#3A3D3A;
+  font-size: 80px;
+  margin: 2px;
+}
+
+header li:nth-child(1) {
+  font-size: 24px;
+}
+
+header li:nth-child(2) {
+  font-size: 24px;
+}
+
+header li:nth-child(3) {
+  font-size: 24px;
+}
+
+section div:nth-child(odd) {
+  background-color:#F7F2E0;
+}
+
+section div:nth-child(4):hover {
+  background-color:#707b6d;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #f5f2ec;
+}
+
+.top-nav {
+  background: #111;
+  padding: 12px 0;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0 40px;
+
+  display: grid;
+  grid-template-columns: repeat(3, auto) 1fr repeat(3, auto);
+  align-items: center;
+}
+
+.menu a,
+.menu .logo {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.menu .logo {
+  justify-self: center;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-transform: none;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  border-bottom: 1px solid #222;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<h1>Pseudo Class Selectors</h1>
+
+<header class="top-nav">
+  <nav>
+    <ul class="menu">
+      <li><a href="/">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li class="logo">The Chronicle</li>
+      <li><a href="#">Journal</a></li>
+      <li><a href="#">Inquire</a></li>
+      <li><a href="#">Shop</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="sub-header">
+  <span>Copywriting Services</span>
+  <span class="divider"></span>
+  <span>Courses & Templates</span>
+</div>
+
+
+<br> <!-- space between menu & divs --> 
+  <div>DIV 1</div>
+  <div>DIV 2</div>
+  <div>DIV 3</div>
+  <div>DIV 4</div>
+  <div>DIV 5</div>
+  <div>DIV 6</div>
+  <div>DIV 7</div>
+  <div>DIV 8</div>
+  <div>DIV 9</div>
+  <div>DIV 10</div>
+  <div>DIV 11</div>
+  <div>DIV 12</div>
+  <div>DIV 13</div>
+  <div>DIV 14</div>
+  <div>DIV 15</div>
+  <div>DIV 16</div>
+  <div>DIV 17</div>
+  <div>DIV 18</div>
+  <div>DIV 19</div>
+  <div>DIV 20</div>
+</section>
+
+</body>
+</html>

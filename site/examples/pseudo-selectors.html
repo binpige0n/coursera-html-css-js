@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pseudo Class Selectors</title>
+<style>
+/* Styles go here. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header li {
+	list-style: none;
+  align-content: right;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color:#F7F2E0;
+  color: #3A3D3A;
+	background-color: #DAC2B2;
+	border: 2px solid #BF897F;
+  display: block;
+  /* Change width of table of contents */
+  width: 400px;
+  text-align: left;
+  /* Separate menu buttons from each other */
+  margin-bottom: 1px;
+}
+
+a:hover, a:active {
+  background-color: #BF897F;
+  color:#F7F2E0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: left;
+  color:#3A3D3A;
+  font-size: 80px;
+  margin: 2px;
+}
+
+.menu {
+  list-style: none;
+  margin: 2px;
+  padding: 0;
+}
+
+
+header li:nth-child(1) {
+  font-size: 24px;
+}
+
+header li:nth-child(2) {
+  font-size: 24px;
+}
+
+header li:nth-child(3) {
+  font-size: 24px;
+}
+
+section div:nth-child(odd) {
+  background-color:#F7F2E0;
+}
+
+section div:nth-child(4):hover {
+  background-color:#707b6d;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Pseudo Class Selectors</h1>
+
+<header>
+  <ul class="menu">
+    <li><a href="/">Home</a></li>
+    <li><a href="http://goo.gl/V0Wl6s" target="_blank">AngularJS Course</a></li>
+    <li><a href="http://www.facebook.com/CourseraWebDev" target="_blank">Facebook Fan Page</a></li>
+  </ul>
+</header>
+<br> <!-- space between menu & divs --> 
+  <div>DIV 1</div>
+  <div>DIV 2</div>
+  <div>DIV 3</div>
+  <div>DIV 4</div>
+  <div>DIV 5</div>
+  <div>DIV 6</div>
+  <div>DIV 7</div>
+  <div>DIV 8</div>
+  <div>DIV 9</div>
+  <div>DIV 10</div>
+  <div>DIV 11</div>
+  <div>DIV 12</div>
+  <div>DIV 13</div>
+  <div>DIV 14</div>
+  <div>DIV 15</div>
+  <div>DIV 16</div>
+  <div>DIV 17</div>
+  <div>DIV 18</div>
+  <div>DIV 19</div>
+  <div>DIV 20</div>
+</section>
+
+</body>
+</html>
