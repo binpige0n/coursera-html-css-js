@@ -1,2 +1,2 @@
 # Study website
-For the Coursera course: HTML, CSS, and JavaScript for Web Developers by Johns Hopkins University.
+For the Coursera courses: HTML, CSS, and JavaScript for Web Developers by Johns Hopkins University and Programming with JavaScript by Meta.
